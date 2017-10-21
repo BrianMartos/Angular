@@ -1,0 +1,28 @@
+form{
+    position: centered;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    text-align: left;
+    width: 800px;
+}
+
+input {
+    width: 50%;
+    border: 3px solid #555;
+}
+
+ 
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid #555;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: both;
+}
