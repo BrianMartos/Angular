@@ -1,12 +1,12 @@
 form{
-    position: centered;
+    position: initial;
     height: 200px;
     z-index: 15;
     top: 50%;
     left: 50%;
     margin: 0 auto;
-    text-align: left;
-    width: 800px;
+    text-align: unset ;
+    width: 900px;
 }
 
 input {
@@ -25,4 +25,12 @@ textarea {
     background-color: #f8f8f8;
     font-size: 16px;
     resize: both;
+}
+
+select {
+    width: 50%;
+    box-sizing: border-box;
+    border: 3px solid #555;
+    border-radius: 4px;
+    font-size: 14px
 }

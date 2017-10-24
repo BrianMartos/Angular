@@ -9,20 +9,18 @@
         <input type="text" class="form-control" id="exampleInputEmail1" required placeholder="ejemplo@ejemplo.com">
         <small id="emailHelp" class="form-text text-muted" >Tu correo electrónico no será compartido con nadie.</small>
     </div>
-    <!-- <div>
-      <label class="checkbox-inline">
-        <input type="checkbox" value="">Option 1
-      </label>
-      <label class="checkbox-inline">
-        <input type="checkbox" value="">Option 2
-      </label>
-      <label class="checkbox-inline">
-        <input type="checkbox" value="">Option 3
-      </label>
-    </div>-->
     <div>
-      <textarea name="" id="" placeholder="Escribe aquí"></textarea>
+      <div class="form-group">
+        <label for="sel1">Razón de contacto</label>
+        <select class="form-control" id="sel1" required>
+          <option>Comentario</option>
+          <option>Reclamo</option>
+        </select>
+      </div>
     </div>
-    <input type="submit" class="btn btn-primary" value= DaleGas>
+    <div>
+      <textarea maxlength="200" name="" id="" placeholder="Escribe aquí"></textarea>
+    </div>
+    <input type="submit" class="btn btn-primary" value= Enviar>
 </form>
 </div>

@@ -6,13 +6,31 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./form.component.scss']
 })
 export class FormComponent implements OnInit {
+  exampleInputEmail1: any;
 submit(){
-  console.log('Hola')
-  return false
+  alert(nombreyapellido);
 }
   constructor() { }
 
   ngOnInit() {
   }
 
+}
+
+// function limitText(limitField, limitNum) {
+//   if (limitField.value.length > limitNum) {
+//       limitField.value = limitField.value.substring(0, limitNum);
+//   }
+// }
+
+function formularioDeContacto(){
+
+}
+
+function nombreyapellido(nombreyapellido){
+    newFunction();
+
+    function newFunction() {
+        this.nombreyapellido;
+    }
 }
