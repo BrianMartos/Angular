@@ -11,6 +11,9 @@ import { HomeComponent } from './home/home.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { FormComponent } from './form/form.component';
+import { ServiciosComponent } from './servicios/servicios.component';
+import { TakerComponent } from './taker/taker.component';
+import { GiverComponent } from './giver/giver.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { FormComponent } from './form/form.component';
     ContactComponent,
     HomeComponent,
     NosotrosComponent,
-    FormComponent
+    FormComponent,
+    ServiciosComponent,
+    TakerComponent,
+    GiverComponent
   ],
   imports: [
     BrowserModule,
