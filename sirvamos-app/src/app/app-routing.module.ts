@@ -5,8 +5,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ServiciosComponent } from './servicios/servicios.component';
-import { TakerComponent } from './taker/taker.component';
-import { GiverComponent } from './giver/giver.component';
+import { PostComponent } from './post/post.component';
 
 
 
@@ -15,8 +14,7 @@ const routes: Routes = [
   {path: 'contacto', component: ContactComponent },
   {path: 'nosotros', component: NosotrosComponent },
   {path: 'servicios', component: ServiciosComponent },
-  {path: 'taker', component: TakerComponent },
-  {path: 'giver', component: GiverComponent },
+  {path: 'post/:id', component: PostComponent }
 ];
 
 @NgModule({
