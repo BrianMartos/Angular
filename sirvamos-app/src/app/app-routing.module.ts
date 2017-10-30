@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { PostComponent } from './post/post.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 
 
