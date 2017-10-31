@@ -1,11 +1,16 @@
-<div><h3>{{posts.title}}</h3>
-<h4>{{posts.userId}}</h4>
-<p>{{posts.body}}</p>
-</div>
 
-<ul>
-  <li *ngFor="let post of posts">
+
+<div><ul>
+  <li *ngFor="let post of posts | paginate: { itemsPerPage: 2, currentPage: p }" >
    <a [routerLink]="['/post', post.id]">  Post {{ post.id }}
     </a>
   </li>
 </ul>
+</div>
+
+<ngb-pagination [collectionSize]="posts?.length" [(page)]="p" aria-label="Default pagination" [pageSize]="2"></ngb-pagination>
+
+<hr>
+
+<pre>Current page: {{ p }}</pre>
+<pre>Current page: {{ posts.length }}</pre>

@@ -17,7 +17,7 @@ import { GiverComponent } from './giver/giver.component';
 import { Http } from '@angular/http';
 import { PostComponent } from './post/post.component';
 import { PostService } from './post.service';
-//import { ReactiveFormsModule } from '@angular/forms';
+// import { ReactiveFormsModule } from '@angular/forms';
 import { NgxPaginationModule } from 'ngx-pagination';
 
 
@@ -42,11 +42,10 @@ import { NgxPaginationModule } from 'ngx-pagination';
     AppRoutingModule,
     NgbModule.forRoot(),
     NgxPaginationModule
-    //ReactiveFormsModule
+    // ReactiveFormsModule
   ],
   providers: [
     PostService
-    
   ],
   bootstrap: [AppComponent]
 })
